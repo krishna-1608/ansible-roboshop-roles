@@ -6,6 +6,6 @@
 
 - name: start the service 
   ansible.builtin.service:
-    name: {{ component }}
+    name: "{{ component }}"
     start: started
     enabled: yes
