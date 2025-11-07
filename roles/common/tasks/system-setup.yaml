@@ -9,5 +9,3 @@
     name: {{ component }}
     start: started
     enabled: yes
-
- 
